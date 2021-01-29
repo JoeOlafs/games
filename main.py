@@ -1,8 +1,10 @@
 import random
 import Rules
-games = ("icelandic","casino","reverse casino","dummy poker","drinking game")
+import Cards
+games = ("Icelandic","Casino","Reverse Casino","Dummy Poker","Drinking Game")
 num = random.randint(0, len(games)-1)
 print(games[num])
-if games[num]=="drinking game":
-	for x in Rules.rules:
+if games[num]=="Drinking Game":
+	for x in Rules.drinkingGameRules:
 		print(x)
+	Cards.deckShuffle()
