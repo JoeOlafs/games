@@ -1,4 +1,4 @@
-drinkingGameRules = ('A:	Waterfall',
+drinkingGameRules = ('A:	Never Have I Ever',
 '2:	Two Sips',
 '3:	Hand Out 3 Sips',
 '4:	Question Master',
@@ -10,4 +10,4 @@ drinkingGameRules = ('A:	Waterfall',
 '10:	Category',
 'J:	Two Truths, One Lie',
 'Q:	Whore',
-'K:	Send Mikko a Snap')
+'K:	Jump Into The Snow')
