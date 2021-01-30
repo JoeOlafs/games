@@ -8,10 +8,11 @@ def deckShuffle():
 		ans = input()
 		if ans != 'exit':
 			num = random.randint(0, len(cards)-1)
-			suit = random.randint(0, len(cards[1])-1)
+			suit = random.randint(0, len(cards[num])-1)
 			count += 1
 			print('Card: ' + cards[num][suit])
+			print('Count: ' + str(count))
 			#print(Rules.drinkingGameRules[rule])
 			del cards[num][suit]
 			
-#deckShuffle()
+deckShuffle()
