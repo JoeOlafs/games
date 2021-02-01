@@ -12,6 +12,7 @@ def deckShuffle():
 			count += 1
 			print('Card: ' + cards[num][suit])
 			print('Count: ' + str(count))
+			Rules.PrintRule(cards[num][suit])
 			#print(Rules.drinkingGameRules[rule])
 			del cards[num][suit]
 			
